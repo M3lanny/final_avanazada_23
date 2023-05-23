@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh; 
+}
+
+.rectangulo {
+  width: 400px;
+  height: 60px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px; /* Ajusta el valor según la altura del rectángulo */
+}
+
+@media print{
+    .parte01, .btn, .accion{
+     display: none
+   }
+}
+
